@@ -4,7 +4,7 @@ Face recognition using Deep Learning running on a Jetson Nano, which receives st
 ### Setup
 - 1 Raspberry PI (better a 4 or 3B+) will be the MQTT Broker, there you need to install Raspberrypi OS and run on a terminal "sudo apt-get install -y mosquitto mosquitto-clients".
 
-- On the Raspberry PI (or even more than 1) which will stream the data, install the Raspberrypi OS Lite version and run on a terminal "pip3 install requirements.txt". If you haven't pip already installed, type "sudo apt-get install python3-pip".
+- On the Raspberry PI (or even more than 1) which will stream the data, install the Raspberrypi OS Lite version and run on a terminal "pip3 install -r requirements.txt". If you haven't pip already installed, type "sudo apt-get install python3-pip".
 
 - Setup the Jetson Nano by following the instructions provided [here](https://github.com/DavidMachineLearning/smart-home-AI).
 
