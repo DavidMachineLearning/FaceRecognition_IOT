@@ -8,6 +8,8 @@ Face recognition using Deep Learning running on a Jetson Nano, which receives st
 
 - Setup the Jetson Nano by following the instructions provided [here](https://github.com/DavidMachineLearning/smart-home-AI).
 
+- If you want to see the data while it is streamed, you can either use your PC and run "pip3 install paho-mqtt opencv-contrib-python" or do the same on the Raspberry PI used as a MQTT Broker.
+
 NOTE: the code used for training and inference on the Jetson Nano will be uploaded soon...
 
 ### Usage
