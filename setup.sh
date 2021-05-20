@@ -7,6 +7,7 @@ sudo apt-get -y install libxvidcore-dev libx264-dev
 sudo apt-get -y install libfontconfig1-dev libcairo2-dev libgdk-pixbuf2.0-dev libango1.0-dev
 sudo apt-get -y install libatlas-base-dev gfortran
 sudo apt-get -y install libhdf5-dev libhdf5-serial-dev libhdf5-103
+sudo apt-get -y install libqtgui4 libqtwebkit4 libqt4-test python3-pyqt5
 sudo apt-get -y install python3-dev
 sudo apt-get -y install python3-pip
 sudo sed -i 's/CONF_SWAPSIZE=100/CONF_SWAPSIZE=4096/g' /etc/dphys-swapfile
